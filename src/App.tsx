@@ -7,7 +7,7 @@ import { hybrid } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { Arrow } from './components/svg/arrow';
 import { CodeFormatting } from './components/code-formatting';
 import { steps } from './mapped';
-import { GithubLogo, InstagramLogo } from 'phosphor-react';
+import { GithubLogo, InstagramLogo, YoutubeLogo } from 'phosphor-react';
 const App: React.FC = () => {
   const [firstSwitch, setFirstSwitch] = useState(false);
   const [secondSwitch, setSecondSwitch] = useState(false);
@@ -34,6 +34,9 @@ const App: React.FC = () => {
             </a>
             <a href="https://instagram.com/iwsouza">
               <InstagramLogo />
+            </a>
+            <a href="https://www.youtube.com/@iwsouzaa">
+              <YoutubeLogo />
             </a>
           </S.Align>
 
