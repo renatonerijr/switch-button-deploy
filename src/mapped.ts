@@ -76,11 +76,11 @@ export const steps = [
       css\`
           \${variant === 'horizontal' &&
           css\`
-            transform: rotate(90deg);
+            transform: rotate(-90deg);
           \`}
           \${!variant &&
           css\`
-            transform: rotate(90deg);
+            transform: rotate(-90deg);
           \`}
       \`}
       &:disabled {
