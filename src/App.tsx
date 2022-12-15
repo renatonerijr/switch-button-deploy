@@ -7,6 +7,7 @@ import { hybrid } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { Arrow } from './components/svg/arrow';
 import { CodeFormatting } from './components/code-formatting';
 import { steps } from './mapped';
+import { GithubLogo, InstagramLogo } from 'phosphor-react';
 const App: React.FC = () => {
   const [firstSwitch, setFirstSwitch] = useState(false);
   const [secondSwitch, setSecondSwitch] = useState(false);
@@ -27,11 +28,20 @@ const App: React.FC = () => {
         <S.Container>
           <h1>Switch Button | Wesley Souza</h1>
 
-          <S.Align>
+          <S.Align minorMargin>
+            <a href="https://github.com/iwsouza">
+              <GithubLogo />
+            </a>
+            <a href="https://instagram.com/iwsouza">
+              <InstagramLogo />
+            </a>
+          </S.Align>
+
+          <S.Align minorMargin minorPadding>
             <div>
               <span>Vertical</span>
               <SwitchButton
-                variant="horizontal"
+                variant="vertical"
                 isActive={firstSwitch}
                 onClick={() => toggleSwitch('first')}
               />
@@ -39,7 +49,7 @@ const App: React.FC = () => {
             <div>
               <span>Horizontal</span>
               <SwitchButton
-                variant="vertical"
+                variant="horizontal"
                 isActive={secondSwitch}
                 onClick={() => toggleSwitch('second')}
               />

@@ -29,14 +29,29 @@ export const Container = styled.div`
   }
 `;
 
-export const Align = styled.div`
+export const Align = styled.div<{
+  minorMargin?: boolean;
+  minorPadding?: boolean;
+}>`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 16px;
 
-  padding: 28px;
-  margin-top: 36px;
+  padding: ${({ minorPadding }) => (minorPadding ? '14px 28px' : '28px')};
+  margin-top: ${({ minorMargin }) => (minorMargin ? '18px' : '36px')};
+
+  a {
+    svg {
+      font-size: 2rem;
+      color: #fff;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
 
   & > div {
     display: flex;
