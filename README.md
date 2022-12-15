@@ -1,12 +1,14 @@
 # Scroll para cima e para baixo
 
 <div align="center">
-<img src="https://i.imgur.com/RAtqnDo.gif" alt="Preview do projeto" width="100%"/>
+<img src="https://i.imgur.com/2Vz7bni.gif" alt="Preview do projeto" width="40%"/>
 </div>
 
 ```
 Com TypeScript o/
 ```
+
+### <p align="center"> 🧪 Veja a <a href="https://switch-button-phi.vercel.app/" target="_blank">demonstração aqui</a></p>
 
 ## 🚀 Começando
 
