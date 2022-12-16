@@ -26,7 +26,7 @@ export const steps = [
     codeString: `
     /**
      * Componente Switch Button
-     * @param variant normal | vertical
+     * @param variant horizontal | vertical
      * @param isActive boolean
      * @param disabled boolean
      * @param onClick return void function
