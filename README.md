@@ -1,4 +1,4 @@
-# Scroll para cima e para baixo
+# Switch Button - Toggle
 
 <div align="center">
 <img src="https://i.imgur.com/2Vz7bni.gif" alt="Preview do projeto" width="40%"/>
