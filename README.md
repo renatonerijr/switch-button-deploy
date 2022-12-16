@@ -43,6 +43,14 @@ Parâmetros
 />
 ```
 
+### 🔧 Alterar cores
+
+- Acessar arquivo styles.ts
+  - linha 17 e 18 é responsável pela cor do fundo do botão inativo
+  - linha 43 e 44 é responsável pela cor do círculo inativo
+  - linha 56 e 57 é responsável pela cor do círculo ativo
+  - linha 59 e 60 é responsável pela cor do fundo do botão ativo
+
 ## ✒️ Suporte
 
 - **Wesley Souza** - _Full Stack Dev_ - [iwsouza](https://github.com/iwsouza)
