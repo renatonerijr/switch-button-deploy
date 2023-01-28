@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/renatonerijr/switch-button-deploy/compare/v1.1.1...v1.1.2) (2023-01-28)
+
+
+### Bug Fixes
+
+* **fix:** Change main ([7cf03e1](https://github.com/renatonerijr/switch-button-deploy/commit/7cf03e19ac4d798377256ba5e73acc11ced51a8d))
+
 ## [1.1.1](https://github.com/renatonerijr/switch-button-deploy/compare/v1.1.0...v1.1.1) (2023-01-28)
 
 
