@@ -1,6 +1,6 @@
 {
   "name": "switch-button-deploy",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/assets/",
   "module": "dist/assets/",
