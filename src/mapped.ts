@@ -22,7 +22,7 @@ export const steps = [
   `,
   },
   {
-    description: 'Monte o componente SwtichButton',
+    description: 'Monte o componente SwitchButton',
     codeString: `
     /**
      * Componente Switch Button
