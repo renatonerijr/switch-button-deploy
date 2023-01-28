@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { SwitchButton } from '../components/switch-button';
 
 export const Vertical: React.FC = () => {
-  // estado responsável para controlar o componente
+  // estado responsável no controle do componente
   const [isActive, setIsActive] = useState(false);
 
   // método responsável pelo toggle do botão
