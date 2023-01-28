@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/renatonerijr/switch-button-deploy/compare/v1.0.0...v1.1.0) (2023-01-28)
+
+
+### Features
+
+* **export:** Export switch button ([4c5baff](https://github.com/renatonerijr/switch-button-deploy/commit/4c5baff51591addf89c15a9686dff5d07bb3e77c))
+
 # 1.0.0 (2023-01-28)
 
 
