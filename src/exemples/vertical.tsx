@@ -7,7 +7,7 @@ export const Vertical: React.FC = () => {
 
   // método responsável pelo toggle do botão
   const toggleActive = () => {
-    // pega o valor anterior e muda
+    // altera o valor anterior do estado
     setIsActive((old) => !old);
   };
   return (
