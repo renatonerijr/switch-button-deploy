@@ -39,6 +39,7 @@
     "type": "git",
     "url": "https://github.com/iwsouza/switch-button.git"
   },
+  "repositoryUrl": "https://github.com/iwsouza/switch-button",
   "release": {
     "branches": [
       "main"
