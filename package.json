@@ -47,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/renatonerijr/switch-button-deploy"
+    "url": "https://github.com/iwsouza/switch-button"
   },
-  "repositoryUrl": "https://github.com/renatonerijr/switch-button-deploy",
+  "repositoryUrl": "https://github.com/iwsouza/switch-button",
   "plugins": [
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
